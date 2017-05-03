@@ -10,7 +10,6 @@
             "email": "georgi.karagocev@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
         "php": ">=5.4",
         "ext-soap": "*"

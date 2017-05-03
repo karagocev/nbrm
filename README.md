@@ -46,6 +46,8 @@ require 'path/to/src/Nbrm.php';
 ### Basic usage
 
 ```
+<?php
+
 use Nbrm\Nbrm;
 
 $nbrm = new Nbrm();
@@ -57,10 +59,7 @@ $rates = $nbrm->getRates();
 The class constructor takes two optional parameters which are used to obtain historical exchange rates. Both of these parameters can be just about any English textual datetime description, a UNIX timestamp, or a combination of both:
 
 ```
-use Nbrm\Nbrm;
-
 $nbrm = new Nbrm(1493683200, 'May 3 2017');
-$rates = $nbrm->getRates();
 ```
 
 | Parameter | Type   | Description |
