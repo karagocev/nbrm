@@ -1,0 +1,23 @@
+{
+    "name": "karagocev/nbrm",
+    "description": "A small PHP library used to retrieve current and historical exchange rates from the web service of the National Bank of the Republic of Macedonia.",
+    "keywords": ["nbrm", "exchange rates", "bank", "currency"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Georgi Karagocev",
+            "email": "georgi.karagocev@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4",
+        "ext-soap": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nbrm\\": "src/"
+        }
+    }
+}
